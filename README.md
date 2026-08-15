@@ -6,6 +6,8 @@ and generates a proposed list of trades to bring the account back into balance.
 
 **Stack:** Java 17 + Spring Boot 3 + Spring Data JPA + MySQL (backend) / React + Axios (frontend)
 
+<img width="1918" height="1092" alt="Adobe Express - Screen Recording 2026-08-14 212001" src="https://github.com/user-attachments/assets/625f9a59-686e-4c85-bf5a-721f196b667c" />
+
 ## Architecture
 
 ```
