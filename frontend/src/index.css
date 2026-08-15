@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #1a1a2e;
+}
+
+.app-shell {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+th {
+  color: #6b7280;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.buy {
+  color: #059669;
+  font-weight: 600;
+}
+
+.sell {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+button {
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
